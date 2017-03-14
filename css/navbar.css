@@ -1542,7 +1542,7 @@ html.rd-navbar-sidebar-linked body {
 }
 
 .rd-navbar-default .rd-navbar-nav > li > a {
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+
     /*font-weight: 700;*/
     line-height: 1.2;
     text-transform: capitalize;

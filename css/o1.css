@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "adonide_regular","Lato", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: none;
   color: #9f9f9f;
   background-color: #fff;
@@ -906,7 +906,6 @@ html .btn-primary, html .btn-primary:active, html .btn-primary.active, html .btn
 .open > html .btn-primary.dropdown-toggle, html .btn-primary:hover {
   color: #fff;
   background-color: #1398dc;
-  border-color: #1398dc;
 }
 
 html .btn-primary.disabled, html .btn-primary[disabled],
