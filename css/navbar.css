@@ -173,7 +173,7 @@
 */
 .rd-navbar {
     display: none;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.91);
     box-shadow: none;
 }
 
@@ -1632,7 +1632,7 @@ html.rd-navbar-sidebar-linked body {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 44px 15px 42px;
+    padding: 24px 15px 22px;
     font-size: 0;
     line-height: 0;
 }

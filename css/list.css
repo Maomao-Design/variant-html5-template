@@ -229,12 +229,13 @@ dt {
     left: 0;
     top: 1px;
     font: 400 18px/24px 'FontAwesome';
-    color: #000;
+    color: #b0b0b0;
     transition: .33s all ease;
 }
 
 .list-marked-variant-2 > li > a:hover:before {
     left: 4px;
+    color: #000;
 }
 
 .list-marked-variant-2 > li + li {

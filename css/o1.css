@@ -44,9 +44,12 @@ body {
 *               of common elements in page header
 */
 .page-head {
-  position: relative;
+  position: fixed;
   z-index: 10000;
-  background-color: #fff;
+  left: 0;
+  top:0;
+  right:0;
+  /*background-color: #fff;*/
 }
 
 /*
@@ -204,8 +207,8 @@ hr {
 }
 
 .page-foot-default .rights {
-  color: #fff;
-  font-weight: 300;
+  color: #999;
+  font-weight: 400;
 }
 
 .privacy-link {
@@ -546,8 +549,8 @@ address {
 }
 
 .bg-gray-base {
-  background: #000;
-  fill: #000;
+  background: #333;
+  fill: #333;
 }
 
 .bg-gray-darker {
@@ -902,8 +905,8 @@ html .btn-primary, html .btn-primary:active, html .btn-primary.active, html .btn
 
 .open > html .btn-primary.dropdown-toggle, html .btn-primary:hover {
   color: #fff;
-  background-color: #42b294;
-  border-color: #42b294;
+  background-color: #1398dc;
+  border-color: #1398dc;
 }
 
 html .btn-primary.disabled, html .btn-primary[disabled],
@@ -1275,7 +1278,7 @@ html .btn-gray-base-outline .badge {
 
 .page .icon-gray-dark-filled {
   color: #fff;
-  background: #2a2b2b;
+  /*background: #2a2b2b;*/
 }
 
 .page .icon-silver-chalice-filled {
@@ -1312,8 +1315,8 @@ html .btn-gray-base-outline .badge {
 }
 
 .page a.icon-gray-dark-filled, .page a.icon-gray-dark-filled:active, .page a.icon-gray-dark-filled:focus {
-  color: #fff;
-  background: #2a2b2b;
+  color: #7b7b7b;
+  /*background: #2a2b2b;*/
 }
 
 .page a.icon-gray-dark-filled:hover {
