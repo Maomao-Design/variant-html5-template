@@ -60,7 +60,6 @@
 }
 
 .pricing-object {
-    font-family: "Playfair Display", "Times New Roman", Times, serif;
     font-weight: 900;
     font-size: 0;
     line-height: 0;
@@ -73,7 +72,6 @@
 
 .pricing-object .small {
     position: relative;
-    font: 700 10px "Montserrat", Helvetica, Arial, sans-serif;
     color: inherit;
     text-transform: uppercase;
 }
@@ -159,7 +157,6 @@
 
 .price-current .small {
     position: relative;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
 

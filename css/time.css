@@ -15,7 +15,6 @@
 .time_circles > div {
     position: absolute;
     text-align: center;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     top: 50% !important;
     transform: translateY(-63%) !important;
     -webkit-transform: translateY(-63%) !important;

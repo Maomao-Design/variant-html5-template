@@ -23,7 +23,6 @@
     position: relative;
     width: 100%;
     margin: 0;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .progress-bar .progress-bar__body {
@@ -52,7 +51,6 @@
 
 .progress-bar-horizontal {
     position: relative;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     text-align: right;
 }
 

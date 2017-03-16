@@ -13,12 +13,13 @@
 }
 
 html {
+  font-family: "adonide_regular","Lato", Helvetica, Arial, sans-serif, "Microsoft YaHei";
   font-size: 10px;
   -webkit-tap-highlight-color: transparent;
 }
 
 body {
-  font-family: "adonide_regular","Lato", Helvetica, Arial, sans-serif;
+  font-family: "adonide_regular","Lato", Helvetica, Arial, sans-serif, "Microsoft YaHei";
   -webkit-text-size-adjust: none;
   color: #9f9f9f;
   background-color: #fff;
@@ -75,7 +76,6 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
@@ -497,7 +497,6 @@ code {
 }
 
 em {
-  font-family: "Playfair Display", "Times New Roman", Times, serif;
   font-size: inherit;
   font-style: italic;
   font-weight: 700;
@@ -513,12 +512,10 @@ mark,
 }
 
 .text-style-1 {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   color: #9b9b9b;
 }
 
 .text-style-2 {
-  font-family: "Playfair Display", "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: 700;
 }
@@ -847,7 +844,6 @@ address {
 
 .btn {
   max-width: 100%;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 700;
   border-radius: 5px;

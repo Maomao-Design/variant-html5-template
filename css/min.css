@@ -1,6 +1,5 @@
 @charset "UTF-8";
 html {
-    font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -306,7 +305,7 @@ html {
 }
 
 body {
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: "adonide_regular","Lato", Helvetica, Arial, sans-serif, "Microsoft YaHei";
     font-size: 14px;
     line-height: 1.71429;
     color: #9f9f9f;
@@ -419,7 +418,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-weight: 700;
     line-height: 1.1;
     color: #00030a;
@@ -946,7 +944,7 @@ th {
 }
 
 .table>thead>tr>th {
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+
     font-size: 16px;
     font-weight: 700;
     padding: 26px 25px;
@@ -2735,6 +2733,11 @@ input[type="button"].btn-block {
     margin-left: 100%;
 }
 
+.col-xs-pd-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 @media (min-width: 768px) {
     .col-sm-1,
     .col-sm-2,
@@ -2902,6 +2905,11 @@ input[type="button"].btn-block {
     }
     .col-sm-offset-12 {
         margin-left: 100%;
+    }
+
+    .col-sm-pd-0 {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -3073,6 +3081,11 @@ input[type="button"].btn-block {
     .col-md-offset-12 {
         margin-left: 100%;
     }
+
+    .col-md-pd-0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -3242,6 +3255,11 @@ input[type="button"].btn-block {
     }
     .col-lg-offset-12 {
         margin-left: 100%;
+    }
+
+    .col-lg-pd-0 {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -7300,7 +7318,6 @@ button.close {
     position: absolute;
     z-index: 1070;
     display: block;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     letter-spacing: normal;
@@ -7434,7 +7451,7 @@ button.close {
     display: none;
     max-width: 276px;
     padding: 1px;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+
     font-style: normal;
     font-weight: normal;
     letter-spacing: normal;
